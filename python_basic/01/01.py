@@ -15,7 +15,6 @@ print(num1/num2)  # 0.5
 print( round(3.14157 ,2 ) )
 
 # round(실수, 숫자)  해당 실수를 숫자만큼 원하는 자리수.. 반올림
-from calendar import c
 import math   # 필요한 라이브러리를 가져온다
 
 # 내림
