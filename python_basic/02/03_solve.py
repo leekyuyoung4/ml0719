@@ -6,8 +6,12 @@ txt02 = "내일은 금요일 입니다."
 print(txt01[4:7])
 # Q2  txt02에서 금요일 을 추출해 보세요.
 print(txt02[4:7])
-# Q3  txt01 역순으로 출력해보세요  - 함수를 이용
-
+# Q3  txt01 역순으로 출력해보세요  - 문자열을 리스트로 만들고 리스트의 함수를 이용
+test =  [item for item in txt01]
+test.reverse()
+print("".join(test))   
+    
+    
 # Q4  txt01 과 txt02 문자열을 합쳐 보세요
 print(txt01 + txt02)
 
