@@ -26,5 +26,7 @@ print(origin_split[:3])  # ['가', '나', '다']
 
 # 퀴즈....  ['가', '나', '다'] 결과를  "가나다"
 
+temp =  origin_split[:3]
+print(temp[0]+temp[1]+temp[2])
 
 
