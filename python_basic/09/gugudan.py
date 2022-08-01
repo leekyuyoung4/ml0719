@@ -19,5 +19,5 @@ class GuguDan:
                 print(f"{self.dan} x {i} = {self.dan*i}",end = "\t")
 
 if __name__ == '__main__':
-    gugudan = GuguDan()                
+    gugudan = GuguDan()
     gugudan.exeGugudan()
