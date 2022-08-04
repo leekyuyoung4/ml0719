@@ -27,9 +27,16 @@ print(sum(set(three+five)))
 filterdLists =  filter(lambda x : x % 3 ==0 or x % 5 ==0, range(1000))
 print(sum(filterdLists))
 
-num1 =  input("값을 공백을 이용해서 입력하세요")
+num1 =  input("값을 공백을 이용해서 입력하세요") # 1. 정수를 공백
 # 확인용"100 200 300"
 print(num1.split(" ")) # ['100','200','300']
 # 공백을 통해 입력한 모든 숫자형 문자를 정수로 변환
 
+# splited =  num1.split(" ")
+# result = []
+# for i in splited:
+#     result.append( int(i))
+
+print(list(map(int,num1.split(" "))))
+    
 
