@@ -11,3 +11,7 @@ butterfly="tinynotation: 2/4 g8 e8 e4 f8 d8 d4 c8 d8 e8 f8 g8 g8 g4 g8 e8 e8 e8 
 
 IMDB 영화평 데이터셋
 http://mng.bz/0tIo
+
+
+glove 데이터
+https://drive.google.com/drive/folders/1IjNZQJvhGYaXLT90e2IpN_xeBHTXf3On?usp=sharing
